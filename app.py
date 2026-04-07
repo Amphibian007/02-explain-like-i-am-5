@@ -1,4 +1,5 @@
 import ollama
+import streamlit as st
 
 def get_explanation(topic, mode):
     if mode == "eli5":
@@ -19,10 +20,24 @@ Use structured bullet points."""
     return response['message']['content']
 
 
-topic = "API"
+st.title("Explain Like I'm 5")
+st.caption("Powered by Gemma 4 running locally via Ollama")
 
-print("=== ELI5 MODE ===")
-print(get_explanation(topic, "eli5"))
+topic = st.text_input("Enter a topic:", placeholder="e.g. API, Kubernetes, Neural Network")
 
-print("\n=== SENIOR MODE ===")
-print(get_explanation(topic, "senior"))
+mode = st.radio("Choose explanation mode:", ["ELI5 (Like I'm 5)", "Senior Engineer"])
+
+if st.button("Explain"):
+    if topic.strip() == "":
+        st.warning("Please enter a topic first.")
+    else:
+        with st.spinner("Thinking..."):
+            selected_mode = "eli5" if "ELI5" in mode else "senior"
+            result = get_explanation(topic, selected_mode)
+        st.markdown(result)
+
+st.markdown("---")
+st.markdown(
+    "<p style='text-align: center; color: grey; font-size: 0.85em;'>DiptoVerse · Building AI . One project at a time<br>©2026</p>",
+    unsafe_allow_html=True
+)

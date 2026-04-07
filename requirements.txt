@@ -1,0 +1,5 @@
+streamlit==1.56.0
+ollama==0.6.1
+# Local LLM (using  Ollama. Pull before running)
+# Model: Google Gemma 4 · Embedded 4B parameters (gemma4:e4b)
+# Pull command: ollama pull gemma4:e4b

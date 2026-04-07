@@ -21,7 +21,7 @@ Use structured bullet points."""
 
 
 st.title("Explain Like I'm 5")
-st.caption("Powered by Gemma 4 running locally via Ollama")
+st.caption("Gemma 4:e4b running locally using Ollama")
 
 topic = st.text_input("Enter a topic:", placeholder="e.g. API, Kubernetes, Neural Network")
 

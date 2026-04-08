@@ -17,8 +17,8 @@ No API keys. No cloud. Just your machine.
 
 Pick a topic. Pick a mode. Get an explanation that actually fits.
 
-**ELI5** breaks it down using real-life analogies — no jargon, no assumptions.
-**Senior Engineer** goes technical — precise, structured, and to the point.
+**ELI5** breaks it down using real life analogies. No jargon, no assumptions.
+**Senior Engineer** goes technical. precise, Structured, and to the point.
 
 Both run entirely on your machine using Gemma 4 (E4B) through Ollama.
 
@@ -31,7 +31,7 @@ Here is what the app produces for **"API"**:
 <tr>
 <td width="50%" valign="top">
 
-**ELI5 — Like You're 5**
+**ELI5: Like You're 5**
 
 Imagine you are in a big restaurant.
 
@@ -46,9 +46,9 @@ The waiter is the API. It's the helper that lets you ask a program for something
 
 **Senior Engineer**
 
-An API is a set of rules, protocols, and tools that dictate how software components interact. It functions as a contract — an abstraction layer that allows disparate systems to exchange data and invoke functionality without knowing the internal implementation details.
+An API is a set of rules, protocols, and tools that dictate how software components interact. It functions as a contract, an abstraction layer that allows disparate systems to exchange data and invoke functionality without knowing the internal implementation details.
 
-Key concerns: interface definition, decoupling, backward compatibility, versioning, and security. Common implementations include REST, GraphQL, and gRPC — each with different trade-offs around data fetching, contract enforcement, and serialization efficiency.
+Key concerns: interface definition, decoupling, backward compatibility, versioning, and security. Common implementations include REST, GraphQL, and gRPC each with different trade offs around data fetching, contract enforcement, and serialization efficiency.
 
 </td>
 </tr>

@@ -60,16 +60,6 @@ Key concerns: interface definition, decoupling, backward compatibility, versioni
 The mode you select shapes the prompt. The model runs locally via Ollama. Nothing leaves your machine.
 
 
-## Try These Topics
-
-These work well in both modes:
-
-1. Recursion
-2. Docker
-3. The Internet
-4. Neural Network
-5. Kubernetes
-6. Blockchain
 
 
 ## Tech Stack
